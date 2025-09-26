@@ -3,7 +3,7 @@
 
 ## İçindekiler
 
-- [1: Cilt Lezyonu Sınıflandırma Projesi](#Cilt Lezyonu Sınıflandırma Projesi)
+- [1: Cilt Lezyonu Sınıflandırma Projesi](#Cilt-Lezyonu-Sınıflandırma-Projesi)
 - [2: Veri yolu tanımları](#cell-4-markdown-cell-4)
 - [3: Model Girişi ve Etiketleme](#cell-6-model-girişi-ve-etiketleme)
 - [4: Train & Validation Örnek Sayıları ve Sınıf Mapping](#cell-8-train-validation-örnek-sayıları-ve-sınıf-mapping)
