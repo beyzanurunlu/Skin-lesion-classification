@@ -1384,7 +1384,8 @@ Model  Accuracy  Macro F1  Balanced Acc
 <Figure size 800x500 with 1 Axes>
 ```
 
-![output](readme_assets/cell36_out2.png)
+<img width="738" height="466" alt="image" src="https://github.com/user-attachments/assets/e2c97994-8444-4947-a22b-789714c2bcdc" />
+
 
 </details>
 
