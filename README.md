@@ -16,7 +16,7 @@
 - [11: Overfitting Analizi](#cell-22-overfitting-analizi)
 - [12: Performans Metrikleri](#cell-24-performans-metrikleri)
 - [13: Confusion Matrix Analizi](#confusion-matrix-analizi)
-- [14: Classification Report Analizi](#cell-28-classification-report-analizi)
+- [14: Classification Report Analizi](classification-report-analizi)
 - [15: Değerlendirme](#cell-30-markdown-cell-30)
 - [16: Model İyileştirmesi — EfficientNetB0 Transfer Learning](#cell-31-model-i̇yileştirmesi-efficientnetb0-transfer-learning)
 - [17: MobileNetV2 Eğitim Sonuçları](#cell-33-mobilenetv2-eğitim-sonuçları)
