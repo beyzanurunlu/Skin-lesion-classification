@@ -373,6 +373,8 @@ for i in range(9):
 plt.tight_layout()
 plt.show()
 ```
+<img width="766" height="790" alt="download" src="https://github.com/user-attachments/assets/2be19be5-71b9-43b1-b1b9-f6a2c855fd22" />
+
 
 <details>
 <summary><strong>Show cell outputs</strong></summary>
