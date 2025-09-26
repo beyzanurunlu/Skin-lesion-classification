@@ -6,7 +6,7 @@
 
 - [1: Cilt Lezyonu Sınıflandırma Projesi](#cell-2-cilt-lezyonu-sınıflandırma-projesi)
 - [2: Gerekli kütüphaneler indirildi](#cell-3-gerekli-kütüphaneler-indirildi)
-- [3: Markdown Cell 4](#cell-4-markdown-cell-4)
+- [3: Veri yolu tnaımları](#cell-4-markdown-cell-4)
 - [4: Model Girişi ve Etiketleme](#cell-6-model-girişi-ve-etiketleme)
 - [5: Train & Validation Örnek Sayıları ve Sınıf Mapping](#cell-8-train-validation-örnek-sayıları-ve-sınıf-mapping)
 - [6: Örnek Batch Görselleştirme](#cell-10-örnek-batch-görselleştirme)
