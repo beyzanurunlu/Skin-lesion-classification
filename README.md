@@ -1517,7 +1517,7 @@ Son konvolüsyon katmanı: out_relu
 <Figure size 1200x800 with 6 Axes>
 ```
 
-![output](readme_assets/cell38_out2.png)
+
 
 </details>
 
