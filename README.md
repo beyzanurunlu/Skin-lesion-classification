@@ -23,7 +23,7 @@
 - [18: CNN vs MobileNetV2 — Sonuç Karşılaştırması](#cell-35-cnn-vs-mobilenetv2-sonuç-karşılaştırması)
 - [19: Grad-CAM Değerlendirmesi](#cell-37-grad-cam-değerlendirmesi)
 - [20: Confusion Matrix (MobileNetV2)](#cell-39-confusion-matrix-mobilenetv2)
-- [21: Classification Report — MobileNetV2](#Classification-Report—MobileNetV2)
+- [21: Classification Report  MobileNetV2](#Classification-Report-MobileNetV2)
 - [22: Final Özet](#Final-Özet)
 
 ---
