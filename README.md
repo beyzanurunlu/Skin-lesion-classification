@@ -472,7 +472,7 @@ orig min/max: 49.0 255.0
 aug  min/max: 0.1764705926179886 1.0
 ```
 
-![output](<img width="1223" height="581" alt="image" src="https://github.com/user-attachments/assets/98dbae52-b4dd-405f-9f88-a862b9749078" />)
+<img width="1223" height="581" alt="image" src="https://github.com/user-attachments/assets/98dbae52-b4dd-405f-9f88-a862b9749078" />
 
 </details>
 
