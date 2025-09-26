@@ -15,7 +15,7 @@
 - [10: CNN Modeli Eğitimi ](#cell-20-cnn-modeli-eğitimi)
 - [11: Overfitting Analizi](#cell-22-overfitting-analizi)
 - [12: Performans Metrikleri](#cell-24-performans-metrikleri)
-- [13: Confusion Matrix Analizi](#confusion-matrix-analizi)
+- [13: Confusion Matrix Analizi](#Confusion-Matrix-Analizi)
 - [14: Classification Report Analizi](classification-report-analizi)
 - [15: Değerlendirme](#cell-30-markdown-cell-30)
 - [16: Model İyileştirmesi — EfficientNetB0 Transfer Learning](#cell-31-model-i̇yileştirmesi-efficientnetb0-transfer-learning)
