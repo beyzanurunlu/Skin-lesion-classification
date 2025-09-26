@@ -1317,7 +1317,8 @@ plt.show()
 <Figure size 1000x400 with 2 Axes>
 ```
 
-![output](readme_assets/cell34_out1.png)
+<img width="1028" height="399" alt="image" src="https://github.com/user-attachments/assets/992fc7be-89c2-4883-831f-95b2635c3ec2" />
+
 
 </details>
 
