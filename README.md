@@ -2,7 +2,7 @@
 
 > Auto-generated README from `skin-lesion-classification.ipynb`.
 
-## İçerik Listesi
+## İçindekiler
 
 - [1: Cilt Lezyonu Sınıflandırma Projesi](#cell-2-cilt-lezyonu-sınıflandırma-projesi)
 - [2: Veri yolu tanımları](#cell-4-markdown-cell-4)
