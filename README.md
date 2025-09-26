@@ -52,7 +52,7 @@ Sınıfların örnek sayıları farklıdır; bu durum ciddi bir **sınıf denges
 ## Projenin Amacı  
 Bu projenin amacı, cilt lezyonlarının doğru şekilde sınıflandırılmasıdır. Çalışma kapsamında:  
 
-- İlk adımda basit bir **CNN modeli** kullanılmış, ancak düşük doğruluk (%26) ve **overfitting** gözlenmiştir.  
+- İlk adımda basit bir **CNN modeli** kullanılmış, ancak düşük doğruluk ve **overfitting** gözlenmiştir.  
 - Ardından **MobileNetV2** tabanı ile **transfer learning** uygulanmış, sonrasında **fine-tuning** adımı eklenerek daha dengeli bir model elde edilmiştir.  
 - Eğitim sürecinde **class weight** kullanılarak dengesiz veri seti dengelenmeye çalışılmıştır.  
 
@@ -64,7 +64,7 @@ Bu projenin amacı, cilt lezyonlarının doğru şekilde sınıflandırılmasıd
 - **Hiperparametre Denemeleri:** Dropout ve öğrenme oranı üzerinde küçük çaplı testler.  
 
 ## Bulgular  
-- **MobileNetV2**, CNN’e kıyasla belirgin şekilde daha yüksek doğruluk (**%48**) sağlamıştır.  
+- **MobileNetV2**, CNN’e kıyasla belirgin şekilde daha yüksek doğruluk (**%54**) sağlamıştır.  
 - Veri dengesizliği nedeniyle küçük sınıflarda başarı düşük kalmış, büyük sınıflarda (özellikle NV) daha başarılı sonuçlar alınmıştır.  
 - **Grad-CAM** görselleri, modelin çoğunlukla lezyon bölgelerine odaklandığını, yanlış sınıflarda ise odağın dağınık olduğunu göstermiştir.  
 
