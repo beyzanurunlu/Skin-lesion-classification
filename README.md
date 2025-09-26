@@ -12,7 +12,7 @@
 - [7: Hiperparametre Denemesi](#cell-14-hiperparametre-denemesi)
 - [8: CNN Baseline Modeli](#cell-16-cnn-baseline-modeli)
 - [9: Sınıf Dağılımı ve Class Weight Analizi](#cell-18-sınıf-dağılımı-ve-class-weight-analizi)
-- [10: CNN Modeli Eğitimi ](#cell-20-cnn-modeli-eğitimi)
+- [10: CNN Modeli Eğitimi ](#Cnn-Modeli-Eğitimi)
 - [11: Overfitting Analizi](#Overfitting-Analizi)
 - [12: Performans Metrikleri](#Performans-Metrikleri)
 - [13: Confusion Matrix Analizi](#Confusion-Matrix-Analizi)
