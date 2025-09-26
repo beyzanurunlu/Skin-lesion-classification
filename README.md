@@ -20,7 +20,7 @@
 - [14: Performans Metrikleri](#cell-24-performans-metrikleri)
 - [15: Confusion Matrix Analizi](#cell-26-confusion-matrix-analizi)
 - [16: Classification Report Analizi](#cell-28-classification-report-analizi)
-- [17: Markdown Cell 30](#cell-30-markdown-cell-30)
+- [17: Değerlendirme](#cell-30-markdown-cell-30)
 - [Cell 31: Model İyileştirmesi — EfficientNetB0 Transfer Learning](#cell-31-model-i̇yileştirmesi-efficientnetb0-transfer-learning)
 - [Cell 32: MobileNetV2 tabanlı transfer learning](#cell-32-mobilenetv2-tabanlı-transfer-learning)
 - [Cell 33: MobileNetV2 Eğitim Sonuçları](#cell-33-mobilenetv2-eğitim-sonuçları)
