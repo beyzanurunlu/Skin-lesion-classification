@@ -54,7 +54,6 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 
 ---
 
-### Cell 2: Cilt Lezyonu Sınıflandırma Projesi
 
 # Cilt Lezyonu Sınıflandırma Projesi
 
@@ -95,7 +94,6 @@ Genel olarak, bu proje basit bir CNN’den transfer learning tabanlı bir modele
 
 ---
 
-### Cell 3: Gerekli kütüphaneler indirildi
 
 ```python
 #Gerekli kütüphaneler indirildi
