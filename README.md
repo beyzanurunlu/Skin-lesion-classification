@@ -1603,9 +1603,12 @@ CNN baseline düşük başarı gösterdi (Accuracy ≈ %39, Macro F1 ≈ 0.13). 
 **Genel Değerlendirme:**
 Transfer learning ile elde edilen MobileNetV2 modeli, basit CNN’e kıyasla belirgin bir iyileşme sağladı. Veri dengesizliği ve benzer sınıfların ayrımı hâlâ zorlayıcı olsa da, proje amacı doğrultusunda başarılı bir temel model elde edildi.
 
+
+Kaggle Linki: https://www.kaggle.com/code/beyzanurunlu/skin-lesion-classification
+### How to Reproduce
 ---
 
-### How to Reproduce
+
 
 ```bash
 pip install -r requirements.txt  # if you have one
