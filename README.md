@@ -1268,7 +1268,8 @@ plt.show()
 
 ---
 
-```## CNN vs MobileNetV2 — Sonuç Karşılaştırması
+
+## CNN vs MobileNetV2 — Sonuç Karşılaştırması
 Amaç: İyileştirmeyi somut göstermek için her iki modelin doğrulama sonuçları yan yana sunulmuştur.
 
 
