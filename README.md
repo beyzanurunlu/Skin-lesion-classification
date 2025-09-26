@@ -1458,12 +1458,13 @@ def show_gradcam_grid(model, val_gen, n=6):
 
 
 </details>
+```
 
 ---
 
 ```
 
-## Confusion Matrix (MobileNetV2)
+ ## Confusion Matrix (MobileNetV2)
 
 **Amaç:**
 Hangi sınıfların doğru/yanlış sınıflandığını ve en çok hangi sınıflarla karıştığını görmek.
