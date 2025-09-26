@@ -24,7 +24,7 @@
 - [19: Grad-CAM Değerlendirmesi](#cell-37-grad-cam-değerlendirmesi)
 - [20: Confusion Matrix (MobileNetV2)](#cell-39-confusion-matrix-mobilenetv2)
 - [21: Classification Report — MobileNetV2](#cell-41-classification-report-mobilenetv2)
-- [22: Final Özet](#cell-43-final-özet)
+- [22: Final Özet](#Final-Özet)
 
 ---
 
