@@ -9,7 +9,7 @@
 - [4: Train & Validation Örnek Sayıları ve Sınıf Mapping](#cell-8-train-validation-örnek-sayıları-ve-sınıf-mapping)
 - [5: Örnek Batch Görselleştirme](#cell-10-örnek-batch-görselleştirme)
 - [6: Augmentation Görsel Kontrol — Orijinal vs. Augmented](#cell-12-augmentation-görsel-kontrol-orijinal-vs-augmented)
-- [7: Hiperparametre Denemesi](#cell-14-hiperparametre-denemesi)
+- [7: Hiperparametre Denemesi](#Hiperparametre-Denemesi)
 - [8: CNN Baseline Modeli](#Cnn-Baseline-Modeli)
 - [9: Sınıf Dağılımı ve Class Weight Analizi](#Sınıf-Dağılımı-Ve-Class-Weight-Analizi)
 - [10: CNN Modeli Eğitimi ](#Cnn-Modeli-Eğitimi)
