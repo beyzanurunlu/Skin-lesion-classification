@@ -1462,7 +1462,6 @@ def show_gradcam_grid(model, val_gen, n=6):
 ---
 
 ```
-### Cell 39: Confusion Matrix (MobileNetV2)
 
 ## Confusion Matrix (MobileNetV2)
 
