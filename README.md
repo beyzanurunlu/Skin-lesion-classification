@@ -10,7 +10,6 @@
 - [Cell 4: Markdown Cell 4](#cell-4-markdown-cell-4)
 - [Cell 5: Code](#cell-5-code)
 - [Cell 6: Model Girişi ve Etiketleme](#cell-6-model-girişi-ve-etiketleme)
-- [Cell 7: Imports](#cell-7-imports)
 - [Cell 8: Train & Validation Örnek Sayıları ve Sınıf Mapping](#cell-8-train-validation-örnek-sayıları-ve-sınıf-mapping)
 - [Cell 9: === TRAIN: normalize + augmentation ===](#cell-9-train-normalize-augmentation)
 - [Cell 10: Örnek Batch Görselleştirme](#cell-10-örnek-batch-görselleştirme)
@@ -185,7 +184,7 @@ Bu sayede her epoch sırasında veri hem normalize ediliyor hem de eğitim/doğr
 
 ---
 
-### Cell 7: Imports
+
 
 ```python
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
