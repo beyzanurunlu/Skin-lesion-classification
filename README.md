@@ -5,9 +5,9 @@
 ## Table of Contents
 
 - [1: This Python 3 environment comes with many helpful analytics libraries installed](#cell-1-this-python-3-environment-comes-with-many-helpful-analytics-libraries-installed)
-- [Cell 2: Cilt Lezyonu Sınıflandırma Projesi](#cell-2-cilt-lezyonu-sınıflandırma-projesi)
-- [Cell 3: Gerekli kütüphaneler indirildi](#cell-3-gerekli-kütüphaneler-indirildi)
-- [Cell 4: Markdown Cell 4](#cell-4-markdown-cell-4)
+- [2: Cilt Lezyonu Sınıflandırma Projesi](#cell-2-cilt-lezyonu-sınıflandırma-projesi)
+- [3: Gerekli kütüphaneler indirildi](#cell-3-gerekli-kütüphaneler-indirildi)
+- [4: Markdown Cell 4](#cell-4-markdown-cell-4)
 - [Cell 5: Code](#cell-5-code)
 - [Cell 6: Model Girişi ve Etiketleme](#cell-6-model-girişi-ve-etiketleme)
 - [Cell 8: Train & Validation Örnek Sayıları ve Sınıf Mapping](#cell-8-train-validation-örnek-sayıları-ve-sınıf-mapping)
