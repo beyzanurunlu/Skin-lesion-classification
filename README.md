@@ -1443,7 +1443,6 @@ def show_gradcam_grid(model, val_gen, n=6):
     plt.suptitle("Grad-CAM — MobileNetV2 (basit sürüm)")
     plt.tight_layout()
     plt.show()
-
      # === KULLANIM ===
      show_gradcam_grid(mobilenet_model, val_gen, n=6)
 
