@@ -15,7 +15,7 @@
 - [9: Hiperparametre Denemesi](#cell-14-hiperparametre-denemesi)
 - [10: CNN Baseline Modeli](#cell-16-cnn-baseline-modeli)
 - [11: Sınıf Dağılımı ve Class Weight Analizi](#cell-18-sınıf-dağılımı-ve-class-weight-analizi)
-- [12:CNN Modeli Eğitimi ](#cell-20-cnn-modeli-eğitimi)
+- [12: CNN Modeli Eğitimi ](#cell-20-cnn-modeli-eğitimi)
 - [Cell 21: Gerekli Kütüphaneler](#cell-21-gerekli-kütüphaneler)
 - [Cell 22: Overfitting Analizi](#cell-22-overfitting-analizi)
 - [Cell 23: Imports](#cell-23-imports)
