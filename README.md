@@ -1018,7 +1018,8 @@ print(classification_report(y_true, y_pred, target_names=classes, digits=3))
 weighted avg      0.356     0.399     0.348      5585
 ```
 
-![output](readme_assets/cell27_out1.png)
+<img width="582" height="460" alt="image" src="https://github.com/user-attachments/assets/2f8b857f-99ee-42ae-ad68-718ddcd5ee47" />
+
 
 </details>
 
