@@ -33,7 +33,7 @@
 ---
 
 
-# Cilt Lezyonu Sınıflandırma Projesi
+#1- Cilt Lezyonu Sınıflandırma Projesi
 
 ## Veri Kümesi  
 Bu projede **Skin Lesion Dataset** isimli Kaggle veri seti kullanılmıştır. Veri kümesinde **8 farklı sınıf** bulunmaktadır:  
