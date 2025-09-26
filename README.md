@@ -11,7 +11,7 @@
 - [6: Augmentation Görsel Kontrol — Orijinal vs. Augmented](#cell-12-augmentation-görsel-kontrol-orijinal-vs-augmented)
 - [7: Hiperparametre Denemesi](#cell-14-hiperparametre-denemesi)
 - [8: CNN Baseline Modeli](#cell-16-cnn-baseline-modeli)
-- [9: Sınıf Dağılımı ve Class Weight Analizi](#cell-18-sınıf-dağılımı-ve-class-weight-analizi)
+- [9: Sınıf Dağılımı ve Class Weight Analizi](#Sınıf-Dağılımı-Ve-Class-Weight-Analizi)
 - [10: CNN Modeli Eğitimi ](#Cnn-Modeli-Eğitimi)
 - [11: Overfitting Analizi](#Overfitting-Analizi)
 - [12: Performans Metrikleri](#Performans-Metrikleri)
