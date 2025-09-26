@@ -1450,9 +1450,9 @@ def show_gradcam_grid(model, val_gen, n=6):
 
 
 ```
-<details>
-<img width="1153" height="788" alt="download" src="https://github.com/user-attachments/assets/1a2f7c23-8d20-475c-9935-9fb78540752f" />
 
+<img width="1153" height="788" alt="download" src="https://github.com/user-attachments/assets/1a2f7c23-8d20-475c-9935-9fb78540752f" />
+<details>
 ```
 
 ---
