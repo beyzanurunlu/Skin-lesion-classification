@@ -887,7 +887,8 @@ plt.tight_layout(); plt.show()
 <Figure size 1000x400 with 2 Axes>
 ```
 
-![output](readme_assets/cell23_out1.png)
+<img width="1038" height="396" alt="image" src="https://github.com/user-attachments/assets/8d4ac0f8-1f59-49c2-911b-5cee3a2b45f7" />
+
 
 </details>
 
