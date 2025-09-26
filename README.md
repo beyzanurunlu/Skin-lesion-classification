@@ -14,7 +14,7 @@
 - [9: Sınıf Dağılımı ve Class Weight Analizi](#cell-18-sınıf-dağılımı-ve-class-weight-analizi)
 - [10: CNN Modeli Eğitimi ](#cell-20-cnn-modeli-eğitimi)
 - [11: Overfitting Analizi](#Overfitting-Analizi)
-- [12: Performans Metrikleri](#cell-24-performans-metrikleri)
+- [12: Performans Metrikleri](#Performans-Metrikleri)
 - [13: Confusion Matrix Analizi](#Confusion-Matrix-Analizi)
 - [14: Classification Report Analizi](classification-report-analizi)
 - [15: Değerlendirme](#cell-30-markdown-cell-30)
