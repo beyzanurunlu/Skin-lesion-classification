@@ -1416,9 +1416,9 @@ def show_gradcam_grid(model, val_gen, n=6):
     # Son konv katmanı (otomatik)
     conv_name = get_last_conv_layer(model)
     print("Son konvolüsyon katmanı:", conv_name)
- ```
+ 
 
-  # Çizim
+     # Çizim
     plt.figure(figsize=(12, 8))
     for k, gi in enumerate(pick, start=1):
         bi, ii = gi // bsz, gi % bsz
@@ -1444,8 +1444,8 @@ def show_gradcam_grid(model, val_gen, n=6):
     plt.tight_layout()
     plt.show()
 
-# === KULLANIM ===
-show_gradcam_grid(mobilenet_model, val_gen, n=6)
+     # === KULLANIM ===
+     show_gradcam_grid(mobilenet_model, val_gen, n=6)
 ```
 
 <details>
