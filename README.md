@@ -1575,7 +1575,8 @@ plt.tight_layout(); plt.show()
 <Figure size 700x500 with 2 Axes>
 ```
 
-![output](readme_assets/cell40_out1.png)
+<img width="568" height="433" alt="image" src="https://github.com/user-attachments/assets/af705ef6-ae8c-44d2-af24-db88511e06a3" />
+
 
 </details>
 
