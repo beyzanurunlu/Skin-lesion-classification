@@ -112,7 +112,6 @@ warnings.filterwarnings('ignore')
 
 ---
 
-### Cell 4: Markdown Cell 4
 
 **Veri Yolu Tanımları**
 
@@ -133,7 +132,6 @@ Bu tanımlamalar sayesinde **`ImageDataGenerator.flow_from_directory()`** fonksi
 
 ---
 
-### Cell 5: Code
 
 ```python
 data_dir  = "/kaggle/input/skin-lesion-dataset"  # Kaggle dataset yolu
@@ -143,7 +141,6 @@ val_dir   = os.path.join(data_dir, "Val")
 
 ---
 
-### Cell 6: Model Girişi ve Etiketleme
 
 ## Model Girişi ve Etiketleme
 
@@ -235,7 +232,6 @@ Train samples: 22349 | Val samples: 5585
 
 ---
 
-### Cell 8: Train & Validation Örnek Sayıları ve Sınıf Mapping
 
 ## Train & Validation Örnek Sayıları ve Sınıf Mapping
 
@@ -254,7 +250,6 @@ weight_shift ve height_shit i 0.10 uyguladığımızda resimler bulanıklaştır
 
 ---
 
-### Cell 9: === TRAIN: normalize + augmentation ===
 
 ```python
 # === TRAIN: normalize + augmentation ===
@@ -311,7 +306,6 @@ Train samples: 22349 | Val samples: 5585
 
 ---
 
-### Cell 10: Örnek Batch Görselleştirme
 
 ## Örnek Batch Görselleştirme
 
@@ -327,7 +321,6 @@ Bu kontrol, model eğitimine başlamadan önce veri pipeline’ının doğru ça
 
 ---
 
-### Cell 11: Imports
 
 ```python
 import matplotlib.pyplot as plt
@@ -366,7 +359,6 @@ plt.show()
 
 ---
 
-### Cell 12: Augmentation Görsel Kontrol — Orijinal vs. Augmented
 
 ## Augmentation Görsel Kontrol — Orijinal vs. Augmented
 
@@ -390,7 +382,6 @@ Bu kontrol sayesinde augmentasyon parametrelerinin görüntüleri aşırı derec
 
 ---
 
-### Cell 13: Imports
 
 ```python
 import numpy as np
@@ -455,7 +446,6 @@ aug  min/max: 0.1764705926179886 1.0
 
 ---
 
-### Cell 14: Hiperparametre Denemesi
 
 ## Hiperparametre Denemesi
 
@@ -475,7 +465,6 @@ Daha düşük dropout oranı (0.3), doğruluğu biraz daha yüksek verdi. Bu da 
 
 ---
 
-### Cell 15: Imports
 
 ```python
 from tensorflow.keras import layers, models
@@ -544,7 +533,6 @@ Dropout=0.5 | Accuracy=0.491
 
 ---
 
-### Cell 16: CNN Baseline Modeli
 
 ## CNN Baseline Modeli
 
@@ -560,7 +548,6 @@ Bu CNN modeli, hafif ve hızlı bir yapı sunarak projede ilk performans ölçü
 
 ---
 
-### Cell 17: Imports
 
 ```python
 from tensorflow.keras import layers, models
@@ -661,7 +648,6 @@ cnn.summary()
 
 ---
 
-### Cell 18: Sınıf Dağılımı ve Class Weight Analizi
 
 ## Sınıf Dağılımı ve Class Weight Analizi
 
@@ -734,7 +720,6 @@ Class weight : {0: 2.21, 1: 0.84, 2: 1.218, 3: 14.55, 4: 0.74, 5: 0.263, 6: 4.25
 
 ---
 
-### Cell 20: CNN Modeli Eğitimi
 
 ## CNN Modeli Eğitimi
 
@@ -751,8 +736,6 @@ Cilt lezyonu sınıflandırma probleminde CNN tabanlı bir model eğitmek. Eğit
 - Eğitim, bu noktadan sonra gelişme olmadığı için durdurulmuş ve ağırlıklar otomatik olarak 1. epoch’taki en iyi haline geri yüklenmiştir.
 
 ---
-
-### Cell 21: Gerekli Kütüphaneler
 
 ```python
 # Gerekli Kütüphaneler
@@ -845,7 +828,6 @@ Restoring model weights from the end of the best epoch: 1.
 
 ---
 
-### Cell 22: Overfitting Analizi
 
 ## Overfitting Analizi
 
@@ -862,7 +844,6 @@ Eğitim setinde iyileşme devam ederken doğrulama performansı geriledi. Bu rak
 
 ---
 
-### Cell 23: Imports
 
 ```python
 import matplotlib.pyplot as plt
@@ -890,7 +871,6 @@ plt.tight_layout(); plt.show()
 
 ---
 
-### Cell 24: Performans Metrikleri
 
 ## Performans Metrikleri
 
@@ -913,7 +893,6 @@ Genel tabloya bakıldığında, model doğrulama kümesinde sınıfları ayırt 
 
 ---
 
-### Cell 25: Imports
 
 ```python
 from sklearn import metrics as M
@@ -942,7 +921,6 @@ CNN | Balanced Acc : 0.19045190387552957
 
 ---
 
-### Cell 26: Confusion Matrix Analizi
 
 ## Confusion Matrix Analizi
 
@@ -968,7 +946,6 @@ Model NV ve MEL sınıflarında güçlü bir ayrıştırma kabiliyetine sahip.BC
 
 ---
 
-### Cell 27: Imports
 
 ```python
 from sklearn.metrics import confusion_matrix, classification_report
@@ -1021,7 +998,6 @@ weighted avg      0.356     0.399     0.348      5585
 
 ---
 
-### Cell 28: Classification Report Analizi
 
 ## Classification Report Analizi
 
@@ -1058,7 +1034,6 @@ Model yalnızca bazı sınıflarda (özellikle NV) anlamlı performans göstereb
 
 ---
 
-### Cell 29: Imports
 
 ```python
 from sklearn.metrics import classification_report
@@ -1093,14 +1068,12 @@ weighted avg      0.356     0.399     0.348      5585
 
 ---
 
-### Cell 30: Markdown Cell 30
 
 İlk denemede basit bir CNN modeli kullanılmış, ancak modelde **overfitting** görülmüş ve doğruluk yalnızca **%39** seviyesinde kalmıştır. Bu sonuç, daha güçlü ve genelleme kapasitesi yüksek yaklaşımlara ihtiyaç olduğunu göstermektedir.
 
 
 ---
 
-### Cell 31: Model İyileştirmesi — EfficientNetB0 Transfer Learning
 
 ## Model İyileştirmesi — EfficientNetB0 Transfer Learning
 
@@ -1134,8 +1107,6 @@ Bu aşama, projenin “Baseline CNN” yaklaşımından sonraki ilk sistematik i
 - Eğitim doğruluğu sürekli yükselirken doğrulama doğruluğunun durağanlaşması, modelin genel performansının sınırlı kaldığını gösteriyor.
 
 ---
-
-### Cell 32: MobileNetV2 tabanlı transfer learning
 
 ```python
 # MobileNetV2 tabanlı transfer learning
@@ -1247,7 +1218,6 @@ Restoring model weights from the end of the best epoch: 3.
 
 ---
 
-### Cell 33: MobileNetV2 Eğitim Sonuçları
 
 ## MobileNetV2 Eğitim Sonuçları
 
@@ -1270,7 +1240,6 @@ Basit CNN modelinde yaşanan overfitting’i azaltmak ve doğrulama setinde daha
 
 ---
 
-### Cell 34: Imports
 
 ```python
 import matplotlib.pyplot as plt
@@ -1320,7 +1289,6 @@ plt.show()
 
 ---
 
-### Cell 35: CNN vs MobileNetV2 — Sonuç Karşılaştırması
 
 ## CNN vs MobileNetV2 — Sonuç Karşılaştırması
 Amaç: İyileştirmeyi somut göstermek için her iki modelin doğrulama sonuçları yan yana sunulmuştur.
@@ -1328,7 +1296,6 @@ Amaç: İyileştirmeyi somut göstermek için her iki modelin doğrulama sonuçl
 
 ---
 
-### Cell 36: Imports
 
 ```python
 import pandas as pd
@@ -1387,7 +1354,6 @@ Model  Accuracy  Macro F1  Balanced Acc
 
 ---
 
-### Cell 37: Grad-CAM Değerlendirmesi
 
 ## Grad-CAM Değerlendirmesi
 
@@ -1404,8 +1370,6 @@ Model çoğunlukla doğru bölgeleri kullanıyor; ancak benzer sınıflarda odak
 
 
 ---
-
-### Cell 38: Imports
 
 ```python
 import numpy as np
@@ -1538,8 +1502,6 @@ MobileNetV2 modeli, **VASC** ve **NV** gibi sınıflarda güçlü bir performans
 
 ---
 
-### Cell 40: Imports
-
 ```python
 import numpy as np, matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
@@ -1576,8 +1538,6 @@ plt.tight_layout(); plt.show()
 
 ---
 
-### Cell 41: Classification Report — MobileNetV2
-
 ## Classification Report — MobileNetV2
 
 **Amaç:**
@@ -1612,7 +1572,6 @@ Bu tablo, dengesiz veri dağılımı ve benzer görünümlü sınıflar nedeniyl
 
 ---
 
-### Cell 42: Imports
 
 ```python
 from sklearn.metrics import classification_report
@@ -1649,7 +1608,6 @@ weighted avg      0.562     0.499     0.494      5585
 
 ---
 
-### Cell 43: Final Özet
 
 ## Final Özet
 
