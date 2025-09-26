@@ -4,7 +4,7 @@
 ## İçindekiler
 
 - [1: Cilt Lezyonu Sınıflandırma Projesi](#Cilt-Lezyonu-Sınıflandırma-Projesi)
-- [2: Veri yolu tanımları](#Veri-Yolu-Tanımları)
+- [2: Veri yolu tanımları](#Veri-yolu-tanımları)
 - [3: Model Girişi ve Etiketleme](#Model-Girişi-Ve-Etiketleme)
 - [4: Train Validation Örnek Sayıları ve Sınıf Mapping](#Train-Validation-Örnek-Sayıları-Ve-Sınıf-Mapping)
 - [5: Örnek Batch Görselleştirme](#Örnek-Batch-Görselleştirme)
