@@ -1446,10 +1446,11 @@ def show_gradcam_grid(model, val_gen, n=6):
 
      # === KULLANIM ===
      show_gradcam_grid(mobilenet_model, val_gen, n=6)
+<img width="1153" height="788" alt="download" src="https://github.com/user-attachments/assets/7217c384-4927-48a8-bc50-0a542d9cdab6" />
 
 
 <summary><strong>Show cell outputs</strong></summary>
-<img width="1153" height="788" alt="download" src="https://github.com/user-attachments/assets/deaa956c-ca3e-47df-b084-9f6e24a18db9" />
+
  <details>
 
 ```
