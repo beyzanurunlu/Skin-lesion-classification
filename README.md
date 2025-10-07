@@ -113,7 +113,7 @@ Bu tanımlamalar sayesinde **`ImageDataGenerator.flow_from_directory()`** fonksi
 
 
 ```python
-data_dir  = "/kaggle/input/skin-lesion-dataset"  # Kaggle dataset yolu
+data_dir  = "/kaggle/input/skin-lesion-dataset"  
 train_dir = os.path.join(data_dir, "Train")
 val_dir   = os.path.join(data_dir, "Val")
 ```
@@ -164,7 +164,7 @@ val_datagen = ImageDataGenerator(
     validation_split=0.2
 )
 
-train_dir = "/kaggle/input/skin-lesion-dataset/Train"  # <- kendi yolun
+train_dir = "/kaggle/input/skin-lesion-dataset/Train"  
 
 train_gen = train_datagen.flow_from_directory(
     train_dir,
