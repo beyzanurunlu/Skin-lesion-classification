@@ -434,9 +434,13 @@ MobileNetV2 modelinde küçük ayarlarla (dropout oranı, öğrenme oranı, son 
 **Yöntem:**
 
 **Dropout:** 0.3 ve 0.5 olarak denendi.
+
 **Learning rate (lr):** 1e-3 ve 5e-4 olarak denendi.
-**Son katmanları açma (unfreeze):** 0 (sadece eklenen katman eğitildi) ve 10 (son 10 katman açıldı).
+
+**Son katmanları açma (unfreeze):** Sadece eklenen katman eğitildi ve son 10 katman açıldı.
+
 Her deneme sadece **2 epoch** ile hızlıca test edildi.
+
 Sonuçlar Accuracy, Macro F1 ve Balanced Accuracy metrikleriyle ölçüldü.
 
 **Sonuç:**
