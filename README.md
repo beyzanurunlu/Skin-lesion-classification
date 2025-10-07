@@ -1058,14 +1058,12 @@ weighted avg      0.356     0.399     0.348      5585
 
 **Amaç:**
 
-Basit CNN mimarisinin sınırlı performansını aşmak için, ImageNet üzerinde önceden
-eğitilmiş EfficientNetB0 gövdesi kullanılmaktadır. Bu sayede düşük seviyeli 
-özelliklerin güçlü temsilleri hazır alınarak,sınıflandırma katmanlarının yeniden
-eğitilmesiyle genelleme kabiliyeti artırılacaktır.  
+Basit CNN mimarisinin sınırlı performansını aşmak için, ImageNet üzerinde öncedeneğitilmiş EfficientNetB0 gövdesi kullanılmaktadır. Bu sayede düşük seviyeli 
+özelliklerin güçlü temsilleri hazır alınarak,sınıflandırma katmanlarının yeniden eğitilmesiyle genelleme kabiliyeti artırılacaktır.  
 
-**Yöntem / Plan:**  
+**Yöntem:**  
 - **Model Gövdesi:** EfficientNetB0, `include_top=False` ve `pooling='avg' kullanılmıştır.  
-- **Transfer Learning Stratejisi:** Önceden eğitilmiş taban katmanlarına **freeze** uygulanmış ve yalnızca üstte eklenen sınıflandırıcı katmanlar eğitilmiştir.  
+- **Transfer Learning:** Önceden eğitilmiş taban katmanlarına **freeze** uygulanmış ve yalnızca üstte eklenen sınıflandırıcı katmanlar eğitilmiştir.  
 - **Dengesizlik Yönetimi:** `class_weight` parametresi korunarak az temsil edilen sınıfların etkisi güçlendirilmiştir.  
 - **Eğitim Süreci:** EarlyStopping, ReduceLROnPlateau ve ModelCheckpoint gibi callback’ler kullanılarak en iyi doğrulama performansı veren model kaydedilmiştir.  
 
@@ -1077,12 +1075,9 @@ Bu aşama, projenin “Baseline CNN” yaklaşımından sonraki ilk sistematik i
 
 **Val_loss**: 1.477
 
-- Bu sonuçlar şunları gösteriyor:
-
+**Sonuç:**
 - Model kısa sürede hızlı bir şekilde öğrenmiş, fakat 3. epoch sonrası overfitting eğilimine girmiş.
-
--Learning rate azaltılması doğrulama kaybını iyileştirmemiş; dolayısıyla düşük LR ile daha uzun eğitim yapılması da fayda sağlamamış.
-
+- Learning rate azaltılması doğrulama kaybını iyileştirmemiş; dolayısıyla düşük LR ile daha uzun eğitim yapılması da fayda sağlamamış.
 - Eğitim doğruluğu sürekli yükselirken doğrulama doğruluğunun durağanlaşması, modelin genel performansının sınırlı kaldığını gösteriyor.
 
 ---
@@ -1204,7 +1199,7 @@ Restoring model weights from the end of the best epoch: 3.
 Basit CNN modelinde yaşanan overfitting’i azaltmak ve doğrulama setinde daha dengeli bir performans elde etmek için MobileNetV2 tabanlı transfer learning uygulandı.
 
 **Sonuç:**
-- Eğitim doğruluğu %40’tan %55’e yükseldi.
+- Eğitim doğruluğu %39’dan %54’e yükseldi.
 - Doğrulama doğruluğu başlangıçta %32 seviyesindeydi, eğitim süresince %48–%51 aralığında dalgalandı.
 - Eğitim ve doğrulama doğruluk eğrileri genel olarak paralel ilerledi, sadece 5. epoch civarında geçici bir düşüş görüldü.
 - Eğitim kaybı düzenli şekilde azaldı (1.9 → 1.1), doğrulama kaybı ise dalgalı bir seyir izledi; 6. epoch’ta 2.0 seviyesine çıksa da daha sonra tekrar 1.5 seviyelerine geriledi.
@@ -1337,7 +1332,7 @@ Model  Accuracy  Macro F1  Balanced Acc
 ## Grad-CAM Değerlendirmesi
 
 **Amaç:**  
-Modelin karar verirken gerçekten lezyon bölgesine mi odaklandığını görmek.  
+Modelin karar verirken lezyon bölgesine odaklanıp odaklanmadığını görmek.  
 
 **Sonuç:**  
 - Doğru tahminlerde ısı haritası genellikle lezyonun merkezinde yoğunlaştı.  
